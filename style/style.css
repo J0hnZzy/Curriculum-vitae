@@ -4,7 +4,28 @@ body {
   padding: 40px;
   font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
 }
+body .skills-title {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 27px;
+  color: #000000;
+  margin: 0px;
+}
 
+body .main {
+  width: 1200px;
+}
+body .company_list {
+  width: 525px;
+}
+body h4 {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
+  color: #000000;
+}
 body h1 {
   margin-bottom: 19px;
 }
@@ -23,6 +44,76 @@ body .wrapper {
 }
 body .main {
   padding: 88px;
+}
+body .About_Me {
+  margin-bottom: 64px;
+}
+body .About_Me h1 {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 45px;
+  line-height: 55px;
+  color: #000000;
+}
+body .About_Me p {
+  font-style: normal;
+  width: 525px;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  margin: 0 0 28px 0;
+  color: #595959;
+}
+body .projects {
+  margin-bottom: 48px;
+}
+body .projects h3 {
+  margin: 0 0 8px 0;
+}
+body .projects .order_list_style {
+  font-weight: 700;
+}
+body .projects .order_list_style span {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  color: #595959;
+}
+body .projects .order_list_style a {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  -webkit-text-decoration-line: underline;
+          text-decoration-line: underline;
+  color: #005fff;
+}
+body .projects ol {
+  padding: 0 0 0 16px;
+  margin: 0px;
+}
+body .work_experience {
+  margin-bottom: 44px;
+}
+body .work_experience p {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 15px;
+  color: #a8a8a8;
+}
+body .work_experience p span {
+  color: #000000;
+  margin: 0px 7px 0px 7px;
+  font-size: 12px;
+}
+body .work_experience ul li {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  color: #595959;
 }
 body .container ul li {
   list-style: none;
@@ -77,4 +168,21 @@ body aside .skills-title {
   font-weight: 700;
   font-size: 22px;
   line-height: 27px;
+}
+body .education-title .date-info {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 15px;
+  color: #a8a8a8;
+}
+body .education-title .date-info h5 {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 17px;
+  color: #000000;
+}
+body .education-title .date-info span {
+  color: #000000;
 }/*# sourceMappingURL=style.css.map */

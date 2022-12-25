@@ -1,10 +1,31 @@
 body {
+  .skills-title {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 27px;
+    color: #000000;
+    margin: 0px;
+  }
   background-color: #e5e5e5;
   padding: 40px;
   font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
     Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
 }
 body {
+  .main{
+    width: 1200px; 
+  }
+  .company_list{
+    width:525px;
+  }
+  h4 {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    color: #000000;
+  }
   h1 {
     margin-bottom: 19px;
   }
@@ -25,6 +46,78 @@ body {
   }
   .main {
     padding: 88px;
+  }
+  .About_Me {
+    margin-bottom: 64px;
+    h1 {
+      font-style: normal;
+      font-weight: 700;
+      font-size: 45px;
+      line-height: 55px;
+      color: #000000;
+    }
+    p {
+      font-style: normal;
+      width: 525px;
+      font-weight: 400;
+      font-size: 14px;
+      line-height: 24px;
+      margin: 0 0 28px 0;
+      color: #595959;
+    }
+  }
+  // projects
+  .projects {
+    margin-bottom: 48px;
+    h3 {
+      margin: 0 0 8px 0;
+    }
+    .order_list_style {
+      font-weight: 700;
+    }
+    .order_list_style {
+      span {
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 24px;
+        color: #595959;
+      }
+      a {
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 24px;
+        text-decoration-line: underline;
+        color: #005fff;
+      }
+    }
+    ol {
+      padding: 0 0 0 16px;
+      margin: 0px;
+    }
+  }
+  .work_experience {
+    margin-bottom: 44px;
+    p {
+      font-style: normal;
+      font-weight: 400;
+      font-size: 12px;
+      line-height: 15px;
+      color: #a8a8a8;
+      span {
+        color: #000000;
+        margin: 0px 7px 0px 7px;
+        font-size: 12px;
+      }
+    }
+    ul li {
+      font-style: normal;
+      font-weight: 400;
+      font-size: 14px;
+      line-height: 24px;
+      color: #595959;
+    }
   }
   .container {
     ul li {
@@ -83,6 +176,25 @@ body {
       font-weight: 700;
       font-size: 22px;
       line-height: 27px;
+    }
+  }
+  .education-title {
+    .date-info {
+      font-style: normal;
+      font-weight: 400;
+      font-size: 12px;
+      line-height: 15px;
+      color: #a8a8a8;
+      h5 {
+        font-style: normal;
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 17px;
+        color: #000000;
+      }
+      span {
+        color: #000000;
+      }
     }
   }
 }
