@@ -1,0 +1,29 @@
+{
+  "name": "resume_conf",
+  "version": "1.0.0",
+  "description": "My resume",
+  "main": "gulpfile.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/J0hnZzy/Curriculum-vitae.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/J0hnZzy/Curriculum-vitae/issues"
+  },
+  "homepage": "https://github.com/J0hnZzy/Curriculum-vitae#readme",
+  "dependencies": {
+    "gulp": "^4.0.2"
+  },
+  "devDependencies": {
+    "del": "^6.1.1",
+    "gulp-file-include": "^2.3.0",
+    "gulp-replace": "^1.1.4",
+    "tailwindcss": "^3.2.6"
+  }
+}

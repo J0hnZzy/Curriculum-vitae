@@ -8,16 +8,17 @@ body {
     margin: 0px;
   }
   background-color: #e5e5e5;
-  padding: 40px;
+  // padding: 40px;
   font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
     Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
 }
 body {
-  .main{
-    width: 1200px; 
+  .main {
+    width: 1200px;
   }
-  .company_list{
-    width:525px;
+  .company_list {
+    width: 525px;
+    padding: 0 0 0 14px;
   }
   h4 {
     font-style: normal;
@@ -25,6 +26,8 @@ body {
     font-size: 16px;
     line-height: 20px;
     color: #000000;
+    margin: 0;
+    padding: 0;
   }
   h1 {
     margin-bottom: 19px;
@@ -99,12 +102,18 @@ body {
   }
   .work_experience {
     margin-bottom: 44px;
+    h4 {
+      padding: 12px 0 12px 0;
+      margin: 0;
+    }
     p {
       font-style: normal;
       font-weight: 400;
       font-size: 12px;
       line-height: 15px;
       color: #a8a8a8;
+      margin: 0;
+      padding: 0;
       span {
         color: #000000;
         margin: 0px 7px 0px 7px;
@@ -164,37 +173,100 @@ body {
       }
       ul {
         margin: 0;
-        padding: 0 0 0 14px;
+        padding: 10px 0 0 15px;
       }
-    }
-    .my_photo {
-      padding-top: 40px;
     }
     .skills-title {
       color: #161d2a;
       font-style: normal;
       font-weight: 700;
-      font-size: 22px;
-      line-height: 27px;
+      font-size: 1.5rem;
+      line-height: 1.9rem;
     }
   }
   .education-title {
     .date-info {
       font-style: normal;
       font-weight: 400;
-      font-size: 12px;
-      line-height: 15px;
+      font-size: 0.8rem;
+      line-height: 0.9rem;
       color: #a8a8a8;
-      h5 {
-        font-style: normal;
-        font-weight: 700;
-        font-size: 14px;
-        line-height: 17px;
-        color: #000000;
+      padding: 12px 0 0 0;
+      margin: 0;
+    }
+    h5 {
+      font-style: normal;
+      font-weight: 700;
+      font-size: 0.9rem;
+      line-height: 1rem;
+      color: #000000;
+      margin: 0;
+      padding: 12px 0 0 0;
+    }
+    h4 {
+      a {
+        p {
+          margin: 0;
+          padding: 12px 0 0px 0;
+        }
       }
       span {
         color: #000000;
+        padding: 0 7px 0 7px;
       }
+    }
+  }
+}
+// DASHED, FUCKING YES
+.first_dashed,
+.second_dashed,
+.third_dashed {
+  position: relative;
+  margin: 0;
+  padding: 0;
+  display: block;
+  border: 0.5px dashed #a8a8a8;
+  height: 0px;
+}
+.first_dashed {
+  top: 18px;
+  width: 220px;
+}
+.second_dashed {
+  left: 0px;
+  top: 18px;
+  width: 194px;
+}
+.third_dashed {
+  width: 213px;
+  top: 18px;
+}
+ol li p {
+  display: flex;
+}
+
+@media (max-width: 999px) {
+  .main {
+    flex-direction: column;
+    margin: 0 auto;
+  }
+  body {
+    overflow-x: hidden;
+    width: 600px;
+    .my_photo {
+      width: 400px;
+    }
+    aside {
+      .image_container {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 50%;
+      }
+      width: 0px;
+      display: block;
+      position: relative;
+      top: 1400px;
     }
   }
 }
